@@ -54,6 +54,6 @@ php artisan db:seed --class=InformationSeeder
 php artisan serve
 ```
 
-12. ingresamos con algunos de los usuarios generados (la contraseña de todo los usuarios es: 123456789) o creamos un usuario nuevo con Register
+12. ingresamos con algunos de los usuarios generados (la contraseña de todo los usuarios es: 123456789) o creamos un usuario nuevo con Register, Si deseas hacerlo desde Register debes de agregar algun dato a la tabla informations con tu mismo id de la tabla Users para poder continuar
 
 13. Todo listo! puedes editar y elimar el usuario completamente.
