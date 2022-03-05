@@ -39,8 +39,7 @@ php artisan key:generate
 ```bash
 php artisan db:seed --class=UserSeeder
 ```
-
-*** Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan***
+> Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan
 
 10. Colocar este comando para generar 50 datos de informacion sobre el usuario NECESARIO
 ```bash
