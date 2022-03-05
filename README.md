@@ -1,4 +1,4 @@
-# marvel-php-challenge-quaxar
+# marvel_laravel_solution
 
 ## Como usarlo?
 
