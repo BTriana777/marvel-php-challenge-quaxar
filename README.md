@@ -1,4 +1,4 @@
-# marvel-php-challenge-quaxar
+# marvel_laravel_solution
 
 ## Como usarlo?
 
@@ -39,14 +39,14 @@ php artisan key:generate
 ```bash
 php artisan db:seed --class=UserSeeder
 ```
+> Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan
 
-    > Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan
 
 10. Colocar este comando para generar 50 datos de informacion sobre el usuario NECESARIO
 ```bash
 php artisan db:seed --class=InformationSeeder
 ```
-    > Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan
+> Puede que te aparesca un error que no pude manerjar, pero los datos si se agregan
 
 
 11. ya podemos inicial el proyecto
@@ -54,6 +54,6 @@ php artisan db:seed --class=InformationSeeder
 php artisan serve
 ```
 
-12. ingresamos con algunos de los usuarios generados (la contraseña de todo los usuarios es: 123456789) o creamos un usuario nuevo con Register
+12. ingresamos con algunos de los usuarios generados (la contraseña de todo los usuarios es: 123456789) o creamos un usuario nuevo con Register, Si deseas hacerlo desde Register debes de agregar algun dato a la tabla informations con tu mismo id de la tabla Users para poder continuar
 
 13. Todo listo! puedes editar y elimar el usuario completamente.
