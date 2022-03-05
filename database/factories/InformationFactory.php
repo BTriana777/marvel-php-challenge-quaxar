@@ -10,6 +10,8 @@ use Illuminate\Support\Str;
 $factory->define(Informations::class, function (Faker $faker) {
     return [
         'cities' => $faker->city,
-        'countries' => $faker->state
+        'countries' => $faker->state,
+        'characters' => 1014858,
+        'comics' => 43505
     ];
 });
